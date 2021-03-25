@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sankaka2/IdeaProjects/VideoGameProject">
+        <classes>
+            <class name="org.videogameproject.VideoGameAPI">
+                <methods>
+                    <include name="test_getAllVideoGames"/>
+                    <include name="test_addNewVideoGame"/>
+                    <include name="test_getVideoGame"/>
+                    <include name="test_updateVideoGame"/>
+                    <include name="test_deleteVideoGame"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
